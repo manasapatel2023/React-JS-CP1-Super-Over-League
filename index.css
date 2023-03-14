@@ -1,0 +1,30 @@
+/* Write your code here. */
+.main-container {
+  background-color: #0f172a;
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: "Roboto";
+  color: #f8fafc;
+  font-size: 28px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+@media (min-width: "768px") {
+  .image {
+    height: 400px;
+    width: 400px;
+  }
+  .heading {
+    font-size: 38px;
+  }
+}
